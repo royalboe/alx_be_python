@@ -10,5 +10,5 @@ while True:
         print("Invalid input. Please enter a valid integer.")
 
 for i in range(1, 11):
-    result = number * i
-    print(f"{number} x {i} = {result}")
+    product = number * i
+    print(f"{number} * {i} = {product}")

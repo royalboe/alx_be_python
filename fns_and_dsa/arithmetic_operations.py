@@ -1,5 +1,5 @@
 
-def perform_operation(num1, num2, operation) -> float:
+def perform_operation(num1, num2, operation):
     """
     Perform arithmetic operations on two numbers.
 

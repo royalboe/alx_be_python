@@ -1,1 +1,10 @@
-__pycache__
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+*.dist-info

@@ -3,9 +3,9 @@ def safe_divide(numerator, denominator):
         result = float(numerator) / float(denominator)
     except ZeroDivisionError:
         print("Error: Cannot divide by zero.")
-        return None
+        return
     except ValueError:
         print("Error: Please enter numeric values only.")
-        return None
+        return
     else:
-        return f"The resullt of the division is {result:.1f}"
+        return f"The result of the division is {result:.1f}"

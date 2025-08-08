@@ -28,4 +28,4 @@ class Library:
             raise TypeError("Only instances of Book or its subclasses can be added.")
         
     def list_books(self):
-        [print(f"{book.__class__.__name__m}: {book.title}, book.author") for book in self.books]
+        [print(f"{book.__class__.__name__}: {book.title}") for book in self.books]
